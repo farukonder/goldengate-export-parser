@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OracleGoldenGateFormatXML>
+    <dbupdate table="EPS.MRM_PRODUCT" type="insert">
+      <columns>
+        <column name="MERCHANTID" key="true">70516</column>
+        <column name="PAYMENTPRODUCTID" key="true">843</column>
+        <column name="COUNTRYCODE" key="true">PR</column>
+        <column name="CURRENCYCODE" key="true">USD</column>
+        <column name="SERVICEPROVIDERID" key="true">1000000843</column>
+        <column name="SERVICES" status="null"></column>
+        <column name="PRIORITY">2</column>
+        <column name="SEQUENCENUMBER">8</column>
+      </columns>
+      <tokens>
+        <token name="TKN1">435169752196</token>
+      </tokens>
+    </dbupdate>
+    <dbupdate table="EPS.GEN_JOURNAL" type="insert">
+      <columns>
+        <column name="JOURNALID" key="true">1869494720</column>
+        <column name="JOURNALDATE">2019-05-07:16:59:22</column>
+        <column name="DETAILSDATE">2019-05-07:16:59:22</column>
+        <column name="OPERATION">C</column>
+        <column name="TABLENAME">MRM_PRODUCT</column>
+        <column name="PK">70516|PR|843|USD|1000000843</column>
+        <column name="OSUSER">dbugger</column>
+        <column name="USERID" status="null"></column>
+        <column name="MODULE">JDBC Thin Client</column>
+        <column name="HOST">ingenico-vm</column>
+        <column name="DETAILS">MERCHANTID70516PAYMENTPRODUCTID843COUNTRYCODEPRCURRENCYCODEUSDSERVICEPROVIDERID1000000843PRIORITY2SEQUENCENUMBER8</column>
+      </columns>
+      <tokens>
+        <token name="TKN1">435169752196</token>
+      </tokens>
+    </dbupdate>
+    <dbupdate table="EPS.MRM_PRODUCT" type="insert">
+      <columns>
+        <column name="MERCHANTID" key="true">70516</column>
+        <column name="PAYMENTPRODUCTID" key="true">843</column>
+        <column name="COUNTRYCODE" key="true">PS</column>
+        <column name="CURRENCYCODE" key="true">USD</column>
+        <column name="SERVICEPROVIDERID" key="true">843</column>
+        <column name="SERVICES" status="null"></column>
+        <column name="PRIORITY">1</column>
+        <column name="SEQUENCENUMBER">8</column>
+      </columns>
+      <tokens>
+        <token name="TKN1">435169752196</token>
+      </tokens>
+    </dbupdate>
+    <dbupdate table="EPS.GEN_JOURNAL" type="insert">
+      <columns>
+        <column name="JOURNALID" key="true">1869494730</column>
+        <column name="JOURNALDATE">2019-05-07:16:59:22</column>
+        <column name="DETAILSDATE">2019-05-07:16:59:22</column>
+        <column name="OPERATION">C</column>
+        <column name="TABLENAME">MRM_PRODUCT</column>
+        <column name="PK">70516|PS|843|USD|843</column>
+        <column name="OSUSER">dbugger</column>
+        <column name="USERID" status="null"></column>
+        <column name="MODULE">JDBC Thin Client</column>
+        <column name="HOST">ingenico-vm</column>
+        <column name="DETAILS">MERCHANTID70516PAYMENTPRODUCTID843COUNTRYCODEPSCURRENCYCODEUSDSERVICEPROVIDERID843PRIORITY1SEQUENCENUMBER8</column>
+      </columns>
+      <tokens>
+        <token name="TKN1">435169752196</token>
+      </tokens>
+    </dbupdate>
+  </transaction>
+   <transaction timestamp="2019-05-07:17:00:48.015607">
+    <dbupdate table="EPS.USR_USER" type="update" image="before">
+      <columns>
+        <column name="USERID" key="true">1007</column>
+        <column name="USERNAME">pradeepb</column>
+        <column name="RECORDINSERTED">2018-07-06:12:22:52</column>
+        <column name="RECORDUPDATED">2019-05-07:17:00:28</column>
+        <column name="VALIDINDICATOR">1</column>
+        <column name="EPASSWORD">/vrlMzRgy0gO2S8tFwoHgQ==</column>
+        <column name="PASSWORDLASTCHANGED">2019-04-24:10:21:22</column>
+        <column name="LASTLOGGEDIN">2019-05-07:17:00:28</column>
+        <column name="FIRSTTIMEPASSWORDINDICATOR">1</column>
+        <column name="FAILEDATTEMPTS">0</column>
+        <column name="LASTFAILED">2019-05-07:12:01:10</column>
+        <column name="LASTUPDATEDBY">pradeepb</column>
+        <column name="EMAILID">pradeep.bhardwaj@epay.ingenico.com</column>
+        <column name="URLTIMESTAMP">1551343428003</column>
+        <column name="URLUSED">0</column>
+      </columns>
+    </dbupdate>
+    <dbupdate table="EPS.USR_USER" type="update">
+      <columns>
+        <column name="USERID" key="true">1007</column>
+        <column name="RECORDUPDATED">2019-05-07:17:00:48</column>
+        <column name="LASTLOGGEDIN">2019-05-07:17:00:48</column>
+      </columns>
+      <tokens>
+        <token name="TKN1">435169752220</token>
+      </tokens>
+    </dbupdate>
+    <dbupdate table="EPS.GEN_JOURNAL" type="insert">
+      <columns>
+        <column name="JOURNALID" key="true">1869577210</column>
+        <column name="JOURNALDATE">2019-05-07:17:00:48</column>
+        <column name="DETAILSDATE">2019-05-07:17:00:48</column>
+        <column name="OPERATION">U</column>
+        <column name="TABLENAME">USR_USER</column>
+        <column name="PK">1007</column>
+        <column name="OSUSER">wpc-web-app</column>
+        <column name="USERID" status="null"></column>
+        <column name="MODULE">JDBC Thin Client</column>
+        <column name="HOST">am2vm2254.test.igdcs.com</column>
+        <column name="DETAILS">LASTLOGGEDIN2019050717002820190507170048</column>
+      </columns>
+      <tokens>
+        <token name="TKN1">435169752220</token>
+      </tokens>
+    </dbupdate>
+  </transaction>

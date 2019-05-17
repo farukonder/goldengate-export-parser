@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OracleGoldenGateFormatXML>
+  <transaction timestamp="2019-04-29:15:28:37.021228">
+    <dbupdate table="EPS.USR_USER" type="update" image="before">
+      <columns>
+        <column name="USERID" key="true">1152</column>
+        <column name="USERNAME">pcosta</column>
+        <column name="RECORDINSERTED">2016-02-26:16:00:39</column>
+        <column name="RECORDUPDATED">2019-04-29:13:56:09</column>
+        <column name="VALIDINDICATOR">1</column>
+        <column name="EPASSWORD">N3j5t13AJSnTTZgcD/OwFA==</column>
+        <column name="PASSWORDLASTCHANGED">2019-04-05:11:48:04</column>
+        <column name="LASTLOGGEDIN">2019-04-29:13:56:09</column>
+        <column name="FIRSTTIMEPASSWORDINDICATOR">1</column>
+        <column name="FAILEDATTEMPTS">0</column>
+        <column name="LASTFAILED">2019-04-09:12:33:29</column>
+        <column name="LASTUPDATEDBY">pcosta</column>
+        <column name="EMAILID">paula.costa@epay.ingenico.com</column>
+        <column name="URLTIMESTAMP" status="null"></column>
+        <column name="URLUSED">0</column>
+      </columns>
+    </dbupdate>
+    <dbupdate table="EPS.USR_USER" type="update">
+      <columns>
+        <column name="USERID" key="true">1152</column>
+        <column name="RECORDUPDATED">2019-04-29:15:28:37</column>
+        <column name="LASTLOGGEDIN">2019-04-29:15:28:37</column>
+        <column name="FAILEDATTEMPTS">0</column>
+      </columns>
+      <tokens>
+        <token name="TKN1">435157776162</token>
+      </tokens>
+    </dbupdate>
+    <dbupdate table="EPS.GEN_JOURNAL" type="insert">
+      <columns>
+        <column name="JOURNALID" key="true">1869095260</column>
+        <column name="JOURNALDATE">2019-04-29:15:28:37</column>
+        <column name="DETAILSDATE">2019-04-29:15:28:37</column>
+        <column name="OPERATION">U</column>
+        <column name="TABLENAME">USR_USER</column>
+        <column name="PK">1152</column>
+        <column name="OSUSER">ema</column>
+        <column name="USERID" status="null"></column>
+        <column name="MODULE">JDBC Thin Client</column>
+        <column name="HOST">am2vm2254.test.igdcs.com</column>
+        <column name="DETAILS">LASTLOGGEDIN2019042913560920190429152837</column>
+      </columns>
+      <tokens>
+        <token name="TKN1">435157776162</token>
+      </tokens>
+    </dbupdate>
+  </transaction>
+  <transaction timestamp="2019-04-29:15:29:14.021228">
+    <dbupdate table="EPS.PCO_AUTH3D" type="insert">
+      <columns>
+        <column name="MERCHANTID" key="true">1701</column>
+        <column name="ORDERID" key="true">802620</column>
+        <column name="EFFORTID" key="true">1</column>
+        <column name="ATTEMPTID" key="true">1</column>
+        <column name="UUID">6f34cc82-e7aa-49f6-aea6-4ddde02ffe72</column>
+        <column name="SERVERTRANSID" status="null"></column>
+        <column name="TRYDATE">2019-04-29:15:29:14</column>
+        <column name="ECI" status="null"></column>
+        <column name="CAVV" status="null"></column>
+        <column name="METHODURL" status="null"></column>
+        <column name="RECORDINSERTED">2019-04-29:15:29:14</column>
+        <column name="RECORDUPDATED" status="null"></column>
+        <column name="TRANSSTATUS" status="null"></column>
+        <column name="TRANSSTATUSREASON" status="null"></column>
+        <column name="DSTRANSACTIONID" status="null"></column>
+        <column name="ACSTRANSACTIONID" status="null"></column>
+        <column name="ACSURL" status="null"></column>
+        <column name="ERRORCODE">0</column>
+        <column name="ERRORMESSAGE" status="null"></column>
+        <column name="TRANSSTATUS_VA" status="null"></column>
+        <column name="TRANSSTATUSREASON_VA" status="null"></column>
+        <column name="CUSTOMER3DMETHOD" status="null"></column>
+        <column name="CUSTOMER3DDATE" status="null"></column>
+        <column name="CUSTOMER3DDATA" status="null"></column>
+        <column name="ACSCHALLENGEMANDATED" status="null"></column>
+        <column name="CREQ" status="null"></column>
+        <column name="CRES" status="null"></column>
+        <column name="VERSION">Unknown</column>
+        <column name="METHODCOMPLETIONINDICATOR" status="null"></column>
+      </columns>
+      <tokens>
+        <token name="TKN1">435157776667</token>
+      </tokens>
+    </dbupdate>
+</OracleGoldenGateFormatXML>
